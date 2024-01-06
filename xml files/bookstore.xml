@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<booksstore>
+    <book>
+        <title category="fun">Three Men in a Boat</title>
+        <author>Jerome K. Jerome</author>
+        <year>1889</year>
+        <price>150</price>
+    </book>
+    <book>
+        <title categoory="web">Learn JavaScript VISUALLY</title>
+        <author>Ivelin Demirov</author>
+        <year>2000</year>
+        <price>499</price>
+    </book>
+</booksstore>

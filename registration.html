@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="s.css">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        section {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;  
+            border-radius: 10px;
+            width: 30%;
+            margin: 50px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #333;
+        }
+        input[type="text"],
+        input[type="date"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Registration Form</h1>
+            <form action="" id="Registration">
+                <p>
+                    <input type="text" placeholder="Name" id="Name">
+                </p>
+                <p>
+                    <label for="date">Date of Birth: </label>
+                    <input type="date" id="date">
+                </p>
+                <p>
+                    <input type="text" placeholder="Phone No." id="Phone No.">
+                </p>
+                <p>
+                    <input type="email" placeholder="Email" id="mail">
+                </p>
+                <p>
+                    <input type="password" placeholder="Password" id="Password">
+                </p>
+                <p>
+                    <input type="password" placeholder="Confirm Password" id="Confirm Password">
+                </p>
+                <p>
+                    <input type="submit" value="Register">
+                </p>
+            </form>
+            <h4><a href="login.html">Already A Member? Sign in</a></h4>
+        </section>
+    </main>
+    <script src="validation1.js"></script>
+</body>
+</html>
